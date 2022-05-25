@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://robfeen.github.io/RobFeenstra/manifests/manifesta.json",
+  "@type" : "sc:Manifest",
+  "label" : "Nawang Rum and Madukara are stabbing themselves to death",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/13002563/5291385968ffe3e273ac39b9afe363ed/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "logo" : "https://iiifviewer.universiteitleiden.nl/logo/",
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : "Nawang Rum and Madukara are stabbing themselves to death"
+  }, {
+    "label" : "Author/creator",
+    "value" : "Ida Madé Tlaga (...-ca. 1924)"
+  }, {
+    "label" : "Country",
+    "value" : {
+      "@value" : "Netherlands",
+      "@language" : "eng"
+    }
+  }, {
+    "label" : "Date issued",
+    "value" : "2017 "
+  }, {
+    "label" : "Language",
+    "value" : {
+      "@value" : "No linguistic content",
+      "@language" : "eng"
+    }
+  }, {
+    "label" : "Extent",
+    "value" : "1 drawing."
+  }, {
+    "label" : "Subject (topical)",
+    "value" : "Balinese"
+  }, {
+    "label" : "Subject (geographic)",
+    "value" : "Indonesia (nation)"
+  }, {
+    "label" : "Reference",
+    "value" : "H.I.R. Hinzler, Catalogue of Balinese manuscripts in the Library of the University of Leiden and other collections in the Netherlands, vol. II, Descriptions of the Balinese drawings from the Van der Tuuk Collection, 1986, pp. 217-218"
+  }, {
+    "label" : "Reference",
+    "value" : "J.J. Witkam, Inventory of the Oriental manuscripts of the library of the University of Leiden, vol. 4, Manuscripts Or. 3001-4000, Leiden 2007"
+  }, {
+    "label" : "Published",
+    "value" : "[19th century]"
+  }, {
+    "label" : "Shelfmark",
+    "value" : "Or. 3390: 138"
+  }, {
+    "label" : "Persistent URL",
+    "value" : "http://hdl.handle.net/1887.1/item:230872"
+  } ],
+  "license" : "Download provided. <a href='https://creativecommons.org/licenses/by/4.0/'>Use of this resource is governed by the terms and conditions of the Creative Commons CC BY License</a>",
+  "attribution" : "Leiden University Libraries",
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Nawang Rum and Madukara are stabbing themselves to death",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:230872/canvas/default",
+      "label" : "Nawang Rum and Madukara are stabbing themselves to death",
+      "height" : 5111,
+      "width" : 4121,
+      "thumbnail" : {
+        "@id" : "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A230872/full/80,/0/default.jpg",
+        "service" : {
+          "@context" : "http://iiif.io/api/image/2/context.json",
+          "@id" : "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A230872",
+          "profile" : "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "images" : [ {
+        "@id" : "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A230872",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A230872/full/pct:50/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "height" : 5111,
+          "width" : 4121,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A230872",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:230872/canvas/default"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://robfeen.github.io/RobFeenstra/annotations/277da4f6f69c2590bbc1c14aa00c380e.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    } ]
+  } ]
+}
