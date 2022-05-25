@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://robfeen.github.io/RobFeenstra/annotations/277da4f6f69c2590bbc1c14aa00c380e.json" ],
+  "@id" : "https://robfeen.github.io/RobFeenstra/annotations/collection.json",
+  "label" : "All annotations loaded in robfeen/RobFeenstra project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
