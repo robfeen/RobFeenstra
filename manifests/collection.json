@@ -1,0 +1,13 @@
+{
+  "id" : "https://robfeen.github.io/RobFeenstra/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in robfeen/RobFeenstra project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://robfeen.github.io/RobFeenstra/manifests/manifesta.json",
+    "label" : "Nawang Rum and Madukara are stabbing themselves to death"
+  } ]
+}
