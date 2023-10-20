@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4000,
+    "id" : "https://robfeen.github.io/RobFeenstra/images/KadasterD/canvas/",
+    "label" : {
+      "none" : [ "KadasterD" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://robfeen.github.io/RobFeenstra/images/KadasterD/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://robfeen.github.io/RobFeenstra/images/KadasterD/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 87
+            }, {
+              "width" : 250,
+              "height" : 173
+            }, {
+              "width" : 500,
+              "height" : 346
+            }, {
+              "width" : 1000,
+              "height" : 692
+            }, {
+              "width" : 2000,
+              "height" : 1383
+            }, {
+              "width" : 4000,
+              "height" : 2765
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4000,
+            "@id" : "https://robfeen.github.io/RobFeenstra/images/KadasterD",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2765
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://robfeen.github.io/RobFeenstra/images/KadasterD/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2765
+        },
+        "target" : "https://robfeen.github.io/RobFeenstra/images/KadasterD/canvas/"
+      } ]
+    } ],
+    "height" : 2765
+  }, {
     "width" : 2520,
     "id" : "https://robfeen.github.io/RobFeenstra/images/PICT0021/canvas/",
     "label" : {
