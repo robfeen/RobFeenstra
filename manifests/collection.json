@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://robfeen.github.io/RobFeenstra/manifests/manifesta.json",
     "label" : "Nawang Rum and Madukara are stabbing themselves to death"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://robfeen.github.io/RobFeenstra/manifests/td-1877manifest.json",
+    "label" : "TD-1877"
   } ]
 }
